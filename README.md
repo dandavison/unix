@@ -5,6 +5,9 @@ and writes to stdout and stderr as follows:
   - reverse the line and write it to stdout
   - write a line to stderr "stderr line i" (where i gets incremented each time).
 
+(In python, do `import sys`, and use `sys.stdin`, `sys.stdout`,
+and `sys.stderr`; they have `.read()` and `.write()` methods.)
+
 So for example, if the input is
 
 ```
