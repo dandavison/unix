@@ -1,0 +1,2 @@
+'some text \n and some more'
+'something else on line 2'
