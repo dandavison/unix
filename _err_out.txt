@@ -1,0 +1,5 @@
+STDERR line 0 
+STDERR line 1 
+
+1 enil no txet emos
+2 enil no esle gnihtemos
