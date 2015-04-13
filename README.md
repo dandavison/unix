@@ -33,3 +33,50 @@ Now:
 - Send stderr and stdout to the same file
 - Pipe the stdout of `reverse` into another program, say `tac` and send the resulting stdout to a file using `>`
 - Pipe the stderr of `reverse` into `tac`
+
+
+=======================================================================================================
+
+input.txt:
+
+```
+11 12 13 14
+21 22 23 24
+31 32 33 34
+41 42 43 44
+```
+
+Generate the following outputs, using only unix commands (e.g. grep, cut, paste)
+
+```
+21 22 23 24
+```
+
+```
+21 22 23 24
+41 42 43 44
+```
+
+```
+13
+23
+33
+43
+```
+
+```
+11 13
+21 23
+31 33
+41 43
+```
+
+```
+11 13
+```
+
+
+```
+21 23
+41 43
+```
